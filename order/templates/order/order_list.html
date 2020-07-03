@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Order List</title>
+    </head>
+
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>order</th>
+                    <th>Modify</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>{{ forloop.counter }}</td>
+                    <td>{{ order }}</td>
+                    <td>Modify</td>
+                    <td>Delete</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
